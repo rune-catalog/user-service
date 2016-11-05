@@ -16,7 +16,7 @@ module.exports = function userPostHandler(req, res, next) {
     })
     .then(pass => {
       password = pass;
-      return MongoClient.connect('mongodb://user-db');
+      return MongoClient.connect('mongodb://user-db/rune');
     })
     .then(database => {
       db = database;

@@ -4,7 +4,7 @@
   "description": "A service for keeping track of user data",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "nodemon -L src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,11 @@
   "homepage": "https://github.com/rune-catalog/user-service#readme",
   "dependencies": {
     "bcrypt": "^0.8.7",
+    "config": "^1.24.0",
+    "jsonwebtoken": "^7.1.9",
     "mongodb": "^2.2.11",
     "restify": "^4.2.0",
+    "restify-jwt": "^0.4.0",
     "slug": "^0.9.1"
   },
   "devDependencies": {
