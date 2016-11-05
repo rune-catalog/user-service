@@ -1,0 +1,28 @@
+{
+  "name": "user-service",
+  "version": "0.1.0",
+  "description": "A service for keeping track of user data",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rune-catalog/user-service.git"
+  },
+  "author": "Sam Noedel <sam.noedel@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rune-catalog/user-service/issues"
+  },
+  "homepage": "https://github.com/rune-catalog/user-service#readme",
+  "dependencies": {
+    "mongodb": "^2.2.11",
+    "restify": "^4.2.0",
+    "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
