@@ -4,6 +4,9 @@ const restify = require('restify');
 
 let server = restify.createServer();
 server.use(restify.CORS());
+server.use(restify.bodyParser({
+  mapParams: false
+}));
 
 server.post('/users', require('./handlers/post'));
 
