@@ -4,8 +4,8 @@
   "description": "A service for keeping track of user data",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon -L src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "debug": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
